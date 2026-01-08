@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "CAD-3E-Engine",
+    "CAD-3E-Editor",
+]
+resolver = "3"

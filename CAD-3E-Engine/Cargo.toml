@@ -1,0 +1,21 @@
+[package]
+name = "cad_3e_engine"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# https://arewegameyet.rs/ecosystem/3drendering/
+# cross-platform OpenGL context provider.
+glutin = "0.32"
+# integration between glutin and winit
+glutin-winit = "0.5"
+# set of bindings to run GL (Open GL, OpenGL ES, and WebGL) anywhere, and avoid target-specific code.
+# is like GLEW or GLAD in C++
+glow = "0.16" 
+winit = "0.30.12"
+# linear algebra library for 3D math 
+nalgebra-glm = "0.20.0"
+# for texture loading (same as stbi_image in C++)
+image = "0.25"
+# error handling
+anyhow = "1.0"
